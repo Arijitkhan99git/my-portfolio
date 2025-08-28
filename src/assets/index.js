@@ -9,6 +9,8 @@ import netLogo from './netLogo.png'
 import azure from './azure.png'
 import appDevelopment from './appDevelopment.png'
 import gitLogo from './gitLogo.png'
+import experienceLogo from './experienceLogo.png'
+import reactLogo from './reactLogo.png'
 
 
-export {profilePic, mySkills, javascript, java, html, css3, cLang, netLogo, azure, appDevelopment, gitLogo};
+export {profilePic, mySkills, javascript, java, html, css3, cLang, netLogo, azure, appDevelopment, gitLogo, experienceLogo, reactLogo};
