@@ -2,7 +2,7 @@ import React from 'react'
 
 function Experience() {
   return (
-    <div>Experience</div>
+    <div className='w-full h-screen py-20'>Experience</div>
   )
 }
 

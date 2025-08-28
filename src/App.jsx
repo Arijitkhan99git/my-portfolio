@@ -14,7 +14,7 @@ function App() {
 
 
   return (
-    <div className="scroll-smooth bg-gray-100 ">
+    <div className="scroll-smooth bg-gray-100 poppins-regular">
      <Header></Header>
      <Intro></Intro>
      <Skills></Skills>
