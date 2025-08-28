@@ -14,7 +14,7 @@ function App() {
 
 
   return (
-    <div className="scroll-smooth bg-gray-200 ">
+    <div className="scroll-smooth bg-gray-100 ">
      <Header></Header>
      <Intro></Intro>
      <Skills></Skills>
