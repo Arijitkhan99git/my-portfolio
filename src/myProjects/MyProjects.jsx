@@ -23,7 +23,7 @@ function MyProjects() {
     {
       id:3,
       img:durgaPuja,
-      title:'Blog Application',
+      title:'Food Track',
       description:'Craving something tasty? Our food delivery app brings your favorite meals from top restaurants straight to your door — hot, fresh, and fast. Browse menus, track orders in real time, and enjoy contactless delivery anytime, anywhere!'
     }
   ]
@@ -54,17 +54,23 @@ function MyProjects() {
 
                       {/* Description */}
                       <div className="w-full lg:w-1/2 xl:w-2/3 space-y-4 mt-6 lg:mt-0">
+                      <div className='space-y-2'>
                         <h1 className="text-xl md:text-2xl poppins-bold">{project.id}</h1>
                         <h2 className="text-lg md:text-xl lg:text-2xl poppins-semibold">{project.title}</h2>
-                        <p className="text-base lg:text-lg">{project.description}</p>
-                        <a 
-                          href="https://github.com/Arijitkhan99git"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-block hover:transition transition"
-                        >
-                          <img src={externalLink} alt="external Link" className='w-8 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 '/>
-                        </a>
+                      </div>
+                        
+                      <div className='space-y-3'>
+                          <p className="text-base lg:text-lg">{project.description}</p>
+                          <a 
+                            href="https://github.com/Arijitkhan99git"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-block hover:transition transition"
+                          >
+                            <img src={externalLink} alt="external Link" className='w-8 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 '/>
+                          </a>
+                      </div>
+                        
                       </div>              
                 </div>
               ))
