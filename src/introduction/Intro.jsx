@@ -8,7 +8,7 @@ function Intro() {
   return (
     <>
     {/* Large Screen */}
-    <div className='hidden sm:block py-20 px-15 mt-8'>
+    <div className='hidden sm:block py-20 px-8 md:px-15 mt-8'>
       <div className='flex justify-between w-full items-center mb-6 lg:mb-4'>
         
         <div className='text-primary min-pr-10 space-y-3 sm:max-w-[50%] md:max-w-[60%]'>
@@ -43,7 +43,7 @@ function Intro() {
 
     {/* Mobile Screen */}
 
-    <div className='flex flex-col gap-5 sm:hidden py-20 px-15 mt-8 '>
+    <div className='flex flex-col gap-5 sm:hidden pt-20 px-8 mt-8 '>
       <div className=' w-full flex flex-col justify-center items-center gap-8 mb-6 lg:mb-4 '>
         
           {/* Profile Image */}

@@ -43,7 +43,7 @@ function Header() {
         </div>
 
         {/* Mobile Screen */}
-        <div className='flex md:hidden w-full h-12 fixed top-0  justify-between gap-5 items-center text-primary  poppins-regular px-15 py-8 bg-background shadow-md'>
+        <div className='flex md:hidden w-full h-12 fixed top-0  justify-between gap-5 items-center text-primary  poppins-regular px-8 py-8 bg-background shadow-md'>
           <div>
             <h1 className='poppins-semibold text-lg'>Arijit Khan</h1>
           </div>
@@ -58,10 +58,11 @@ function Header() {
           
         </div>
 
-        <div className={`${isMenuOpen ? 'block': 'hidden' } md:hidden bg-gradient-to-r from-gray-200  to-slate-300 py-10 px-15`}>
+        <div className={`${isMenuOpen ? 'block': 'hidden' } md:hidden bg-gradient-to-r from-gray-200  to-slate-300 pt-20 pb-10 px-15`}>
           <div className='flex flex-col gap-4  poppins-regular text-lg text-primary'>       
             <Link to='skills' onClick={closeMenu} smooth={true} duration={500} className='cursor-pointer'>Skills</Link>
             <Link to='experience' onClick={closeMenu} smooth={true} duration={500} className='cursor-pointer'>Experience</Link>
+             <Link to='aboutMe' onClick={closeMenu} smooth={true} duration={500} className='cursor-pointer'>About Me</Link>
             <Link to='myProject' onClick={closeMenu} smooth={true} duration={500} className='cursor-pointer'>Projects</Link>
             <Link to='contactMe' onClick={closeMenu} smooth={true} duration={500} className='cursor-pointer '>Contact Me</Link>
             <a className='cursor-pointer'>Resume</a>
