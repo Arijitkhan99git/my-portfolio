@@ -58,7 +58,7 @@ function Header() {
           
         </div>
 
-        <div className={`${isMenuOpen ? 'block': 'hidden' } md:hidden bg-gradient-to-r from-gray-200  to-slate-300 pt-20 pb-10 px-15`}>
+        <div className={`${isMenuOpen ? 'block': 'hidden' } md:hidden bg-gradient-to-r from-gray-200  to-slate-300 pt-20 pb-10 px-8`}>
           <div className='flex flex-col gap-4  poppins-regular text-lg text-primary'>       
             <Link to='skills' onClick={closeMenu} smooth={true} duration={500} className='cursor-pointer'>Skills</Link>
             <Link to='experience' onClick={closeMenu} smooth={true} duration={500} className='cursor-pointer'>Experience</Link>
