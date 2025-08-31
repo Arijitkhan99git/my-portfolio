@@ -7,7 +7,9 @@ import {Menu} from 'lucide-react'
 
 function Header() {
    const [isMenuOpen, setIsMenuOpen] = useState(false)
-    
+  const resumeUrl = 'https://drive.google.com/file/d/1BSbjx94YRGa-stgAyRnGvnAfYsta2EpZ/view?usp=sharing'
+
+  const hoverEffect = ' cursor-pointer transition delay-50 duration-300 ease-in-out hover:scale-110 hover:text-blue-700'
 
     const closeMenu = () => {       
         setIsMenuOpen(false)
@@ -28,15 +30,15 @@ function Header() {
             <h1 className='poppins-semibold text-lg'>Arijit Khan</h1>
           </div>
           <div className='flex gap-8'>
-            <Link to='skills' smooth={true} duration={500} className='cursor-pointer'>Skills</Link>
-            <Link to='experience' smooth={true} duration={500} className='cursor-pointer'>Experience</Link>
-            <Link to='myProject' smooth={true} duration={500} className='cursor-pointer'>Projects</Link>
-            <Link to='contactMe' smooth={true} duration={500} className='cursor-pointer '>Contact Me</Link>
+            <Link to='skills' smooth={true} duration={500} className={hoverEffect}>Skills</Link>
+            <Link to='experience' smooth={true} duration={500} className={hoverEffect}>Experience</Link>
+            <Link to='myProject' smooth={true} duration={500} className={hoverEffect}>Projects</Link>
+            <Link to='contactMe' smooth={true} duration={500} className={hoverEffect}>Get In Touch</Link>
           </div>
 
           
           <a 
-            href='https://drive.google.com/file/d/1r6_Me6Qr4xEvG56VlfEh-qxkNo94V7mK/view?usp=sharing'
+            href={resumeUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="flex rounded-sm bg-primary hover:bg-blue-800 px-2 py-1 gap-1 text-white cursor-pointer"
@@ -68,11 +70,11 @@ function Header() {
           <div className='flex flex-col gap-4  poppins-regular text-lg text-primary'>       
             <Link to='skills' onClick={closeMenu} smooth={true} duration={500} className='cursor-pointer'>Skills</Link>
             <Link to='experience' onClick={closeMenu} smooth={true} duration={500} className='cursor-pointer'>Experience</Link>
-             <Link to='aboutMe' onClick={closeMenu} smooth={true} duration={500} className='cursor-pointer'>About Me</Link>
+            <Link to='aboutMe' onClick={closeMenu} smooth={true} duration={500} className='cursor-pointer'>About Me</Link>
             <Link to='myProject' onClick={closeMenu} smooth={true} duration={500} className='cursor-pointer'>Projects</Link>
-            <Link to='contactMe' onClick={closeMenu} smooth={true} duration={500} className='cursor-pointer '>Contact Me</Link>
+            <Link to='contactMe' onClick={closeMenu} smooth={true} duration={500} className='cursor-pointer '>Get In Touch</Link>
             <a  
-              href='https://drive.google.com/file/d/1r6_Me6Qr4xEvG56VlfEh-qxkNo94V7mK/view?usp=sharing'
+              href={resumeUrl}
               target="_blank"
               rel="noopener noreferrer" className='cursor-pointer'>
               Resume

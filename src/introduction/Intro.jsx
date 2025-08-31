@@ -5,6 +5,9 @@ import {Github} from 'lucide-react'
 import {Linkedin} from 'lucide-react'
 
 function Intro() {
+
+  const iconHoverEffetct = 'inline-block  p-1 bg-primary  rounded-sm transition delay-50 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-blue-700'
+
   return (
     <>
     {/* Large Screen */}
@@ -27,15 +30,33 @@ function Intro() {
       </div>
 
       <div className='flex gap-6 text-white '>
-        <div className='p-1 bg-primary  rounded-sm'>
+         <a 
+          href='https://www.facebook.com'
+          target="_blank"
+          rel="noopener noreferrer"
+          className={iconHoverEffetct}
+        >
           <Facebook ></Facebook>
-        </div>
-         <div className='p-1 bg-primary  rounded-sm'>
-          <Github ></Github>
-        </div>
-         <div className='p-1 bg-primary  rounded-sm'>
-          <Linkedin ></Linkedin>
-        </div>
+        </a>
+
+        <a 
+          href='https://github.com/Arijitkhan99git'
+          target="_blank"
+          rel="noopener noreferrer"
+          className={iconHoverEffetct}
+        >
+           <Github ></Github>
+        </a>
+
+        <a 
+          href='https://www.linkedin.com/in/arijit-khan-72375b18b/'
+          target="_blank"
+          rel="noopener noreferrer"
+          className={iconHoverEffetct}
+        >
+           <Linkedin ></Linkedin>
+        </a>
+        
           
       </div>
 

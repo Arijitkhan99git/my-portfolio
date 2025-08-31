@@ -22,6 +22,10 @@ import externalLink from './externalLink.png'
 import foodyCookBook from './foodyCookBook.png'
 import assetManagement from './assetManagement.PNG'
 import hotDish from './hotDish.png'
+import contactMe from './contactMe.png'
+import email from './email.png'
+import phoneLogo from './phoneLogo.png'
+import copyIcon from './copyIcon.png'
 
 export {profilePic, mySkills, 
         javascript, java, html, css3, cLang, netLogo, azure, appDevelopment, gitLogo, experienceLogo, reactLogo,
@@ -33,6 +37,10 @@ export {profilePic, mySkills,
         durgaPuja,
         foodyCookBook,
         assetManagement,
-        hotDish
-        
+        hotDish,
+
+        contactMe,
+        email,
+        phoneLogo,
+        copyIcon
     };
