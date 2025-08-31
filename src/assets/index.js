@@ -19,13 +19,20 @@ import aboutMeLogo from './aboutMeLogo.png'
 import durgaPuja from './durgaPuja.PNG'
 import myProjectLogo from './myProjectLogo.png'
 import externalLink from './externalLink.png'
+import foodyCookBook from './foodyCookBook.png'
+import assetManagement from './assetManagement.PNG'
+import hotDish from './hotDish.png'
 
 export {profilePic, mySkills, 
         javascript, java, html, css3, cLang, netLogo, azure, appDevelopment, gitLogo, experienceLogo, reactLogo,
         company1, company2, company3,
         aboutMe, aboutMeLogo,
-        durgaPuja,
+        
         myProjectLogo,
-        externalLink
+        externalLink,
+        durgaPuja,
+        foodyCookBook,
+        assetManagement,
+        hotDish
         
     };

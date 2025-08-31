@@ -35,10 +35,16 @@ function Header() {
           </div>
 
           
-          <div className=' flex rounded-sm bg-primary px-2 py-1 gap-1 text-white'>
-            <button >Resume</button>
-            <Download className='w-4' ></Download>
-          </div>
+          <a 
+            href='https://drive.google.com/file/d/1r6_Me6Qr4xEvG56VlfEh-qxkNo94V7mK/view?usp=sharing'
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex rounded-sm bg-primary hover:bg-blue-800 px-2 py-1 gap-1 text-white cursor-pointer"
+          >
+             <button className='cursor-pointer'>Resume</button>
+             <Download className='w-4' ></Download>
+          </a>
+
           
         </div>
 
@@ -65,7 +71,12 @@ function Header() {
              <Link to='aboutMe' onClick={closeMenu} smooth={true} duration={500} className='cursor-pointer'>About Me</Link>
             <Link to='myProject' onClick={closeMenu} smooth={true} duration={500} className='cursor-pointer'>Projects</Link>
             <Link to='contactMe' onClick={closeMenu} smooth={true} duration={500} className='cursor-pointer '>Contact Me</Link>
-            <a className='cursor-pointer'>Resume</a>
+            <a  
+              href='https://drive.google.com/file/d/1r6_Me6Qr4xEvG56VlfEh-qxkNo94V7mK/view?usp=sharing'
+              target="_blank"
+              rel="noopener noreferrer" className='cursor-pointer'>
+              Resume
+              </a>
           </div>
         </div>
       </nav>

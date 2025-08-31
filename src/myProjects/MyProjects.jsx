@@ -2,29 +2,42 @@ import React from 'react'
 import {durgaPuja} from '../assets/index'
 import {myProjectLogo} from '../assets/index'
 import {externalLink} from '../assets/index'
+import {foodyCookBook} from '../assets/index'
+import {assetManagement} from '../assets/index'
+import {hotDish} from '../assets/index'
+     
 
 function MyProjects() {
 
   const projects =[
     {
       id:1,
-      img:durgaPuja,
+      img:assetManagement,
       title:'Asset Management',
       description:'A full-stack web application designed to streamline the management of company assets and users. The system allows admins to manage users and assign assets, while users can view their assigned assets and related details through a secure and user-friendly dashboard.',
-      url:'github.com/Arijitkhan99git'
+      url:'https://github.com/Arijitkhan99git/asset-management-react'
     },
 
     {
       id:2,
       img:durgaPuja,
       title:'Durga Puja',
-      description:'Join us in the joyous celebration of Durga Puja, a vibrant festival that honors the triumph of Goddess Durga over evil. Our community comes together every year with devotion, cultural programs, traditional rituals, and festive spirit. Explore the schedule, participate in events, and be a part of the divine celebration!'
+      description:'Join us in the joyous celebration of Durga Puja, a vibrant festival that honors the triumph of Goddess Durga over evil. Our community comes together every year with devotion, cultural programs, traditional rituals, and festive spirit. Explore the schedule, participate in events, and be a part of the divine celebration!',
+      url:'github.com/Arijitkhan99git'
     },
     {
       id:3,
-      img:durgaPuja,
-      title:'Food Track',
-      description:'Craving something tasty? Our food delivery app brings your favorite meals from top restaurants straight to your door — hot, fresh, and fast. Browse menus, track orders in real time, and enjoy contactless delivery anytime, anywhere!'
+      img:foodyCookBook,
+      title:'Foody CookBook',
+      description:'Craving something tasty? Our food delivery app brings your favorite meals from top restaurants straight to your door — hot, fresh, and fast. Browse menus, track orders in real time, and enjoy contactless delivery anytime, anywhere!',
+      url:'https://github.com/Arijitkhan99git/Foody-CookBook'
+    },
+    {
+      id:4,
+      img:hotDish,
+      title:'Hot Dish',
+      description:'Hot Dish is a user-friendly food ordering app that lets users browse and order from a variety of restaurants. After creating an account, users can explore the home page, which displays a list of restaurants from an integrated API. Each restaurant has its own menu page, allowing users to add multiple items to their cart and place orders seamlessly. Users can also mark restaurants as favorites, search by name, and sort by rating or price. The app includes a navigation drawer for quick access to Home, Profile, Favorites, Order History, FAQs, and Logout.',
+      url:'https://github.com/Arijitkhan99git/Hot-Dish'
     }
   ]
 
@@ -62,7 +75,7 @@ function MyProjects() {
                       <div className='space-y-3'>
                           <p className="text-base lg:text-lg">{project.description}</p>
                           <a 
-                            href="https://github.com/Arijitkhan99git"
+                            href={project.url}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-block hover:transition transition"
