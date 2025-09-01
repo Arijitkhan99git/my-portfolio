@@ -17,7 +17,7 @@ function Intro() {
           <h2 className='text-xl md:text-2xl'>Hello I'am <span className='poppins-bold'>Arijit Khan.</span></h2>
           <h1 className='sm:text-3xl md:text-4xl lg:text-5xl poppins-extrabold'>Fronend Developer</h1>
           <h2 className='text-xl md:text-2xl'>Based in <span className='poppins-bold'>India</span></h2>
-          <p className='text-lg'>I am currently Trainee Software Engineer at Broadifitech Pvt Ltd.
+          <p className='text-lg leading-relaxed'>I am currently Trainee Software Engineer at Broadifitech Pvt Ltd.
             I have worked as a dedicated Senior Systems Engineer at Infosys, with a strong foundation in JavaScript, Android App
             Development, and various web technologies. With experience in maintaining Linux-based servers. 
           </p>
