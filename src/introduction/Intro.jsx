@@ -1,12 +1,11 @@
 import React from 'react'
 import { profilePic } from '../assets/index'
-import {Facebook} from 'lucide-react'
-import {Github} from 'lucide-react'
-import {Linkedin} from 'lucide-react'
+
+import SocialMedias from './socialMedias'
+
 
 function Intro() {
 
-  const iconHoverEffetct = 'inline-block  p-1 bg-primary  rounded-sm transition delay-50 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-blue-700'
 
   return (
     <>
@@ -29,36 +28,7 @@ function Intro() {
         </div>
       </div>
 
-      <div className='flex gap-6 text-white '>
-         <a 
-          href='https://www.facebook.com'
-          target="_blank"
-          rel="noopener noreferrer"
-          className={iconHoverEffetct}
-        >
-          <Facebook ></Facebook>
-        </a>
-
-        <a 
-          href='https://github.com/Arijitkhan99git'
-          target="_blank"
-          rel="noopener noreferrer"
-          className={iconHoverEffetct}
-        >
-           <Github ></Github>
-        </a>
-
-        <a 
-          href='https://www.linkedin.com/in/arijit-khan-72375b18b/'
-          target="_blank"
-          rel="noopener noreferrer"
-          className={iconHoverEffetct}
-        >
-           <Linkedin ></Linkedin>
-        </a>
-        
-          
-      </div>
+     <SocialMedias></SocialMedias>
 
     </div>
 
@@ -86,18 +56,7 @@ function Intro() {
        
       </div>
 
-      <div className='flex justify-center gap-6 text-white '>
-        <div className='p-1 bg-primary  rounded-sm'>
-          <Facebook ></Facebook>
-        </div>
-         <div className='p-1 bg-primary  rounded-sm'>
-          <Github ></Github>
-        </div>
-         <div className='p-1 bg-primary  rounded-sm'>
-          <Linkedin ></Linkedin>
-        </div>
-          
-      </div>
+     <SocialMedias></SocialMedias>
 
     </div>
     </>
