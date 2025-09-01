@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-scroll'; 
 import {Download} from 'lucide-react'
 import {Menu} from 'lucide-react'
-
+import { X } from 'lucide-react';
 
 function Header() {
    const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -60,13 +60,14 @@ function Header() {
           <div className='flex items-center gap-6  '>                                 
 
               <button onClick={handelMenu}>
-                      <Menu className="h-6 w-6 text-primary cursor-pointer"></Menu>
+                      {!isMenuOpen && <Menu className=" text-primary cursor-pointer" size={30}></Menu>}
+                      {isMenuOpen && <X size={30} />}
               </button>                      
           </div>
           
         </div>
 
-        <div className={`${isMenuOpen ? 'block': 'hidden' } md:hidden bg-gradient-to-r from-gray-200  to-slate-300 pt-20 pb-10 px-8`}>
+        <div className={` ${isMenuOpen ? 'block': 'hidden' } md:hidden bg-gradient-to-r from-gray-200  to-slate-300 pt-20 pb-10 px-8`}>
           <div className='flex flex-col gap-4  poppins-regular text-lg text-primary'>       
             <Link to='skills' onClick={closeMenu} smooth={true} duration={500} className='cursor-pointer'>Skills</Link>
             <Link to='experience' onClick={closeMenu} smooth={true} duration={500} className='cursor-pointer'>Experience</Link>
