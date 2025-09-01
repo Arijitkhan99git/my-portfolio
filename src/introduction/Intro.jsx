@@ -1,8 +1,6 @@
 import React from 'react'
 import { profilePic } from '../assets/index'
-
-import SocialMedias from './socialMedias'
-
+import ExternalMedia from './ExternalMedia'
 
 function Intro() {
 
@@ -28,8 +26,7 @@ function Intro() {
         </div>
       </div>
 
-     <SocialMedias></SocialMedias>
-
+     <ExternalMedia></ExternalMedia>
     </div>
 
     {/* Mobile Screen */}
@@ -56,7 +53,7 @@ function Intro() {
        
       </div>
 
-     <SocialMedias></SocialMedias>
+     <ExternalMedia></ExternalMedia>
 
     </div>
     </>
