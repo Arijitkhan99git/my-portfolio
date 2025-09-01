@@ -29,7 +29,7 @@ function MyProjects() {
       id:3,
       img:foodyCookBook,
       title:'Foody CookBook',
-      description:'Craving something tasty? Our food delivery app brings your favorite meals from top restaurants straight to your door — hot, fresh, and fast. Browse menus, track orders in real time, and enjoy contactless delivery anytime, anywhere!',
+      description:'The Food Recipe App is a dynamic recipe discovery application where users can explore new dishes each time they open the app, view detailed recipes with ingredients and instructions, search for foods by name, and save their favorite recipes in a dedicated section for easy access.',
       url:'https://github.com/Arijitkhan99git/Foody-CookBook'
     },
     {
