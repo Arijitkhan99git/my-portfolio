@@ -52,7 +52,7 @@ function ContactMe() {
               
               <div className='flex items-center gap-3'>
                 <img src={email} alt="email" className='w-6 h-6' />
-                <span className='text-gray-700'>{emailAddress}</span>
+                <span className='text-sm md:text-base text-gray-700'>{emailAddress}</span>
               </div>
 
               <div className='flex items-center gap-2'>
@@ -74,7 +74,7 @@ function ContactMe() {
             <div className='flex items-center justify-between p-3 bg-white rounded-lg shadow-sm'>
               <div className='flex items-center gap-3'>
                 <img src={phoneLogo} alt="phone" className='w-6 h-6' />
-                <span className='text-gray-700'>{phoneNumber}</span>
+                <span className='text-sm md:text-base text-gray-700'>{phoneNumber}</span>
               </div>
               <div className='flex items-center gap-2'>
                 <button 
